@@ -6,22 +6,15 @@
 //  Copyright © 2018 Max Rumpf. All rights reserved.
 //
 
+#include "matrix/matrix.hpp"
+#include "capture/capture.hpp"
 #include <iostream>
 #include <vector>
 #include <assert.h>
-#include "matrix.cpp"
 
-
-
-
-
-
-
-
-
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    
+    capture::test();
     return 0;
 }
