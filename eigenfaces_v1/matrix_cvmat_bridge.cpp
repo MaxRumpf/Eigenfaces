@@ -7,7 +7,7 @@
 //
 
 #include "matrix_cvmat_bridge.hpp"
-#include "constants.hpp"
+#include "settings.hpp"
 #include "matrix.hpp"
 #include "capture.cpp"
 #include <opencv2/core/core.hpp>
@@ -32,7 +32,7 @@ namespace matrix_cvmat {
         cv::Mat output = cv::Mat(PIC_SIZE, PIC_SIZE, CV_8UC1);
         for(COORD_T r=0;r<PIC_SIZE;r++) {
             for(COORD_T c=0;c<PIC_SIZE;c++) {
-                output.at<NUM_T>(r, c) = column.at(PIC_SIZE * r + c) + 50;
+                output.at<NUM_T>(r, c) = column.at(PIC_SIZE * r + c);
             }
         }
         return output;

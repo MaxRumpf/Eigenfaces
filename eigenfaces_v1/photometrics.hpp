@@ -8,7 +8,7 @@
 
 #ifndef photometrics_hpp
 #define photometrics_hpp
-#include "constants.hpp"
+#include "settings.hpp"
 #include <opencv2/core/core.hpp>
 
 namespace photometrics {

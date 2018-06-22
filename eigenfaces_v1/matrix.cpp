@@ -7,7 +7,7 @@
 //
 
 #include "matrix.hpp"
-#include "constants.hpp"
+#include "settings.hpp"
 #include <vector>
 #include <iostream>
 using namespace std;

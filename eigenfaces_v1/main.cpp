@@ -6,7 +6,7 @@
 //  Copyright © 2018 Max Rumpf. All rights reserved.
 //
 
-#include "constants.hpp"
+#include "settings.hpp"
 #include "matrix.hpp"
 #include "capture.hpp"
 #include "photometrics.hpp"

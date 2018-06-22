@@ -10,7 +10,7 @@
 #define capture_hpp
 
 #include "capture.hpp"
-#include "constants.hpp"
+#include "settings.hpp"
 #include <vector>
 #include "matrix.hpp"
 #include <opencv2/core/core.hpp>

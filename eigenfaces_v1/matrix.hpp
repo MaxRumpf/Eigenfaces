@@ -9,7 +9,7 @@
 #ifndef matrix_hpp
 #define matrix_hpp
 
-#include "constants.hpp"
+#include "settings.hpp"
 #include <vector>
 using namespace std;
 namespace matrix {

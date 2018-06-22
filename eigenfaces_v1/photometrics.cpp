@@ -7,7 +7,7 @@
 //
 
 #include "photometrics.hpp"
-#include "constants.hpp"
+#include "settings.hpp"
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 

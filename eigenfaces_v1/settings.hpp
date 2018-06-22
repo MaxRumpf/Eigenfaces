@@ -6,12 +6,14 @@
 //  Copyright © 2018 Max Rumpf. All rights reserved.
 //
 
-#ifndef constants_h
-#define constants_h
 #include <vector>
+
+#ifndef settings_h
+#define settings_h
+
 #define PIC_SIZE 500
-typedef unsigned char NUM_T;
+typedef unsigned int NUM_T;
 typedef std::vector<std::vector<NUM_T>> MATRIX_T;
 typedef unsigned long COORD_T;
 
-#endif /* constants_h */
+#endif /* settings_h */

@@ -7,7 +7,7 @@
 //
 
 #import "matrix.hpp"
-#include "constants.hpp"
+#include "settings.hpp"
 #import <opencv2/core/core.hpp>
 
 #ifndef matrix_cvmat_bridge_hpp
