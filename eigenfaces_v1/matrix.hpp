@@ -9,14 +9,10 @@
 #ifndef matrix_hpp
 #define matrix_hpp
 
+#include "constants.hpp"
 #include <vector>
 using namespace std;
-
-namespace m {
-    typedef unsigned int NUM_T;
-    typedef vector<vector<NUM_T>> MATRIX_T;
-    typedef unsigned long COORD_T;
-    
+namespace matrix {
     COORD_T rows(MATRIX_T *matrix);
     COORD_T columns(MATRIX_T *matrix);
     NUM_T at(MATRIX_T *matrix, COORD_T row, COORD_T column);

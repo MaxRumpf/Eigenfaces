@@ -7,18 +7,17 @@
 //
 
 #include "matrix.hpp"
+#include "constants.hpp"
 #include <vector>
 #include <iostream>
 using namespace std;
-
 /*
  *  outer vect: horizontal  ->  rows
  */
-namespace m {
-    typedef unsigned int NUM_T;
+namespace matrix {
+    /*typedef unsigned int NUM_T;
     typedef vector<vector<NUM_T>> MATRIX_T;
-    typedef unsigned long COORD_T;
-
+    typedef unsigned long COORD_T;*/
     COORD_T rows(MATRIX_T *matrix) {
         return matrix->size();
     };
@@ -118,7 +117,7 @@ namespace m {
             vector<NUM_T> curr_row = row(matrix, r);
             final_column.insert(final_column.end(), curr_row.begin(), curr_row.end());
         }
-        m::add_column(&result, final_column);
+        add_column(&result, final_column);
         return result;
     }
 }
