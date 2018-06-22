@@ -15,9 +15,6 @@ using namespace std;
  *  outer vect: horizontal  ->  rows
  */
 namespace matrix {
-    /*typedef unsigned int NUM_T;
-    typedef vector<vector<NUM_T>> MATRIX_T;
-    typedef unsigned long COORD_T;*/
     COORD_T rows(MATRIX_T *matrix) {
         return matrix->size();
     };
